@@ -69,7 +69,7 @@ const filterInput = (list) => {
    `)
    let inputValue = ""
    const input = document.querySelector("#search")
-   input.addEventListener("change", e => {
+   input.addEventListener("keyup", e => {
       inputValue = e.target.value
       console.log(inputValue)
       const filteredList = list.filter(person => {return person.name.first.toLowerCase().includes(inputValue.toLowerCase()) ||
