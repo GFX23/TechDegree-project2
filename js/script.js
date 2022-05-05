@@ -48,7 +48,7 @@ const displayButtons = (list) => {
    }
    document.querySelector("button").className = "active"
    ul.addEventListener("click", (e) => {
-      if (e.target.tagName = "button") {
+      if (e.target.type === "button") {
          document.querySelectorAll("button").forEach(btn => btn.classList.remove("active"))
          e.target.className = "active"
          displayPage(list, e.target.innerHTML)
