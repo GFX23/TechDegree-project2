@@ -2,7 +2,6 @@
 Treehouse Techdegree:
 FSJS Project 2 - Data Pagination and Filtering
 */
-
 // Defining objects count 
 
 const objectCount = 9
